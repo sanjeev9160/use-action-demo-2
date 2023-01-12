@@ -1,0 +1,10 @@
+name: Call a reusable workflow
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  call-workflow:
+    uses: sanjeev9160/use-action-demo/.github/workflows/blank.yml@main
